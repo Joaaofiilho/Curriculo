@@ -1,0 +1,78 @@
+body{
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    margin: 0px;
+}
+main h1{ 
+    font-size: 60px;
+    background-color: rgb(120, 30, 60);
+    color: #FAFFFA;
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 40px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+p{
+    text-align: justify;
+    margin: 20px 0px;
+}
+blockquote{
+    background-color: #D3DDDA;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+aside{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+
+nav a{
+    color: inherit;
+}
+
+nav h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+footer{
+    background-color: #000000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github{
+    background-image: url(github.png);
+}
+
+.twitter{
+    background-image: url(twitter.png);
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
+}
