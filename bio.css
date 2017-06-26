@@ -13,13 +13,16 @@ main h1{
     font-family: "Open Sans Condensed", sans-serif;
     margin: 0;
     text-transform: uppercase;
+    border-bottom: 10px solid #000;
 }
 h2{
     font-size: 40px;
     font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
 }
 p{
     text-align: justify;
+    line-height: 1.3em;
     margin: 20px 0px;
 }
 blockquote{
@@ -28,7 +31,9 @@ blockquote{
     border: 10px solid #C2CCCA;
     width: 250px;
     margin: 0px;
+    margin-top: 20px;
     box-sizing: border-box;
+    float: right;
 }
 
 aside{
@@ -56,6 +61,9 @@ footer{
     background-color: #000000;
     color: #F2FFFC;
     padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .icones-sociais a{
@@ -75,4 +83,56 @@ footer{
 
 .linkedin{
     background-image: url(linkedin.png);
+}
+
+.container{
+    width: 840px;
+    margin: 0 auto;
+    padding: 40px 0;
+    padding-bottom: 80px;
+}
+
+.fiat{
+    float: right;
+    margin-left: 20px;
+}
+
+.petrobras{
+    float: left;
+    margin-right: 20px;
+}
+
+aside, img{
+    float: right;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    box-sizing: border-box;
+}
+
+aside{
+    clear: right;
+    width: 15%;
+    box-sizing: border-box;
+    position: relative;
+    top: 310px; 
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+footer{
+    clear: both;
+}
+
+cite{
+    font-style: italic;
+    float: right;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
